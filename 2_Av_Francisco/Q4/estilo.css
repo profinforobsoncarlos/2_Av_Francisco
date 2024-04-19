@@ -1,0 +1,42 @@
+body {
+    background: url("Av_Q4.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+div::before {
+    content: " Avaliação: Francisco Kenison";
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(5, 39, 66, 0.8);;
+    padding: 5px;
+    display:block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+
+div {
+    background-color: rgba(52, 132, 197, 0.8);
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+}
+
+a {
+    color: #273747;
+    text-decoration: none;
+    font-weight: bold;
+    font: 11pt Helvetica;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+    <Style>
+        label{
+            font-size: 15pt;
+        }
+    </Style>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Calculo de Média</h1>
+        <form action="media.php" method="get">
+            <label for="nome">Qual é o seu nome:</label>
+            <input type="text"name="nome" required/>
+            <br/>
+
+            <label for="n1">Informe sua Nota 1: </label>
+            <input type="number"name="n1" id="n1" min="0" max="10" placeholder="2 Díg." required/>
+            <br/>
+
+            <label for="n2">Informe sua Nota 2:</label>
+            <input type="number"name="n2" id="n2" min="0" max="10"  placeholder="2 Díg." required/>
+            <br/>
+
+            <label for="n3">Informe sua Nota 3:</label>
+            <input type="number"name="n3" id="n3" min="0" max="10"  placeholder="2 Díg." required/>
+            <br/>
+
+            <label for="n4">Informe sua Nota 4:</label>
+            <input type="number"name="n4" id="n4" min="0" max="10"  placeholder="2 Díg." required/>
+            <br/>
+
+            <input type="submit" value="Calcular"/>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
