@@ -16,7 +16,7 @@
     <div>
         <?php
             $val = $_GET["valor"];
-            $conver = ($val / 5.20);
+            $conver = ($val / 5.20); /*Não precisava colocar entre parenteses.*/
            
             
         echo " <h3>Você informou: R$".number_format($val, 2, ",", ".")."</h3>";
